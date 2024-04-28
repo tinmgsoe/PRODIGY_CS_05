@@ -28,5 +28,5 @@ def start_sniffer(interface):
     sniff(iface=interface, prn=packet_callback, store=0)
 
 if __name__ == "__main__":
-    # Replace "eth0" with the name of your network interface
+    # Replace "Wi-Fi" with the name of your network interface
     start_sniffer("Wi-Fi")
